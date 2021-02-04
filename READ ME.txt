@@ -1,0 +1,14 @@
+index.html must be executed as the main page
+
+**recent update
+cleaner code
+changed the page to dark mode
+
+**future update
+--check for error
+--add additional information in the about section
+--add legal terms and condition
+--the confession board must have the uploaded message from the users even when the page had reload
+
+**source:
+http://jsfiddle.net/7WKfj/

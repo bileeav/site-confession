@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CTU Confession - Homepage</title>
+
+<link rel="stylesheet" type="text/css" href="content.css">
+
+
+</head>
+<body>
+
+<!--Navigation-->
+
+<ul>
+  <li><a href="https://www.ctu.edu.ph/">Official CTU Website</a></li>
+  <li><a href="https://web.facebook.com/ctu.premier/">Official CTU Facebook</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbutton">CTU Tuburan Campus</a>
+    <div class="dropdown-content">
+      <a href="https://web.facebook.com/sao.ctutuburancampus">SAO Tuburan Campus</a>
+      <a href="https://web.facebook.com/ctutcmis/">MIS Tuburan Campus</a>
+      <a href="https://web.facebook.com/ctutcict">IT Tuburan Campus</a>
+    </div>
+  <li class="float"><a href="#about">About</a></li>
+  <li class="float"><a href="mailto:roselyn.canete@ctu.edu.ph">Contact</a></li>
+  </li>
+</ul>
+
+<!--Navigation-->
+<img src="CTU logo.png" alt="Cebu Technological University logo" id="pic">
+
+<h1>CTU Confession Site</h1>
+<p>
+A confession site exclusive for both students and teachers in Cebu Technological University.
+</p>
+
+<p>
+Publish a post anonymously.
+</p>
+
+<p id="confession">
+Confession Board:
+</p>
+
+
+
+<!--this is the best part of the website where the user type and send their confession-->
+<!--made possible: http://jsfiddle.net/7WKfj/-->
+<div id="text">
+<textarea id="new">/user:  </textarea><br>
+<input type="button" onclick="document.getElementById('text').innerHTML = document.getElementById('text').innerHTML + document.getElementById('new').value + '<br>';" value="Publish" id="button" />
+</div>
+
+<h1  id="about">What is this about?</h1>
+<p>A stand alone site which is generally used at Cebu Technological University for both students and teachers to anonymously post their confessions and secrets to their respective communities.</p>
+<p>We are not responsible for damages and lost in using this website. Hence, only for entertainment.</p>
+<p>We highly recommend not to post your sensitive information like student information, bank accounts, credit and debit card numbers, passwords and more.</p>
+<p>Users in this site shall remain anonymous.</p>
+
+<footer>MADE WITH ❤ CAÑETE</footer>
+</body>
+</html>
